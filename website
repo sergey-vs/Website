@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+
+</head>
+
+<body>
+  <!--Header-->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-row">
+        <div class="header_logo">
+          <h3>LINUXTUX</h3>
+        </div>
+
+
+        <nav class="navigation" id="nav">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Дистрибутивы</a>
+              <ul>
+                <li><a href="#">Debian</a></li>
+                <li><a href="#">Ububntu</a></li>
+                <li><a href="#">Mint</a></li>
+                <li><a href="#">Kali</a></li>
+                <li><a href="#">Centos</a></li>
+              </ul>
+            </li>
+            <!--<li><a href="#">About</a></li>-->
+            <li><a href="#">Категории</a>
+              <ul>
+                <li><a href="#">----</a></li>
+                <li><a href="#">----</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <!--main-->
+  <main>
+    <div class="main"> <a href=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet temporibus porro numquam ratione optio aspernatur totam officiis eius illum pariatur quasi facere quisquam iure error quas modi, aut vitae reprehenderit!</a>
+
+    </div>
+  </main>
+
+  <!--Боковая панель-->
+  <aside>
+    <div>Боковая панель</div>
+  </aside>
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="conteiner">
+      <div class="footer-inner">
+        <p>&#169 LINUXTUX 2023</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
