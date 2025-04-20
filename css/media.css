@@ -1,0 +1,14 @@
+/*-- Media --*/
+
+@media (max-width: 1080px) {
+
+  .navigation {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+}
